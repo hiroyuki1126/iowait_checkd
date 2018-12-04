@@ -5,7 +5,7 @@
 * rootユーザで以下を実行する。
 
 ```
-# git clone https://github.com/hiroyuki1126/tools
+# git clone https://github.com/hiroyuki1126/iowait_checkd
 # cd tools/iowait_checkd
 # make install clean
 ```

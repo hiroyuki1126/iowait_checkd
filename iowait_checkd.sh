@@ -2,12 +2,12 @@
 
 . /etc/rc.d/init.d/functions
 
-readonly PROG=/root/bin/iowait_checkd
-readonly PROGNAME=$(basename ${PROG})
-readonly CONF=/root/conf/iowait_checkd.conf
+readonly PROG='/root/bin/iowait_checkd'
+readonly PROGNAME="$(basename ${PROG})"
+readonly CONF='/root/conf/iowait_checkd.conf'
 
 function error() {
-    echo ERROR: $(basename $0): $@ 1>&2
+    echo "ERROR: $(basename $0): $@" 1>&2
 }
 
 function abort() {

@@ -35,7 +35,7 @@ function reload() {
 
 [ $(whoami) == 'root' ] || abort 'This program must be run as root.'
 
-[ -f ${PROG} ] || abort "Program '${PROG}' does not exist."
+[ -x ${PROG} ] || abort "cannot run ${PROG}"
 
 case "$1" in
     start)

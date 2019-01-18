@@ -6,7 +6,7 @@
 
 ```
 # git clone https://github.com/hiroyuki1126/iowait_checkd
-# cd tools/iowait_checkd
+# cd iowait_checkd
 # make install clean
 ```
 
